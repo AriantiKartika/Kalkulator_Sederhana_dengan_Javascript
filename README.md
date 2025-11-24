@@ -23,8 +23,7 @@ Kalkulator *responsive* berbasis HTML, CSS, dan vanilla JavaScript. Proyek ini d
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://theengravedgifts.com/products/repo-dane-12inch-black](https://theengravedgifts.com/products/repo-dane-12inch-black)
-    cd ta5
+    git clone https://github.com/AriantiKartika/Kalkulator_Sederhana_dengan_Javascript.git
     ```
 2.  **Buka di Browser:**
     Buka file `index.html` langsung di peramban web Anda.

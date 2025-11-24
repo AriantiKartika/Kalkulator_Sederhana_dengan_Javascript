@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Arianti Punya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Kalkulator Arianti</h1>
+        
+        <div class="display-area">
+            <div id="history-display" class="history-preview"></div>
+            <div id="display" class="main-display">0</div>
+        </div>
+
+        <div id="memory-status" class="memory-status-hidden">M</div>
+
+        <div class="keypad">
+            
+            <button class="func-btn" data-func="mc">MC</button>
+            <button class="func-btn" data-func="mr">MR</button>
+            <button class="func-btn" data-func="m+">M+</button>
+            <button class="func-btn" data-func="m-">M-</button>
+            
+            <button class="func-btn clear" data-func="ce">CE</button>
+            <button class="func-btn clear" data-func="c">C</button>
+            
+            <button class="op-btn" data-op="divide">÷</button>
+            <button class="op-btn" data-op="multiply">×</button>
+            
+            <button class="num-btn" data-num="7">7</button>
+            <button class="num-btn" data-num="8">8</button>
+            <button class="num-btn" data-num="9">9</button>
+            <button class="op-btn" data-op="subtract">-</button>
+
+            <button class="num-btn" data-num="4">4</button>
+            <button class="num-btn" data-num="5">5</button>
+            <button class="num-btn" data-num="6">6</button>
+            <button class="op-btn" data-op="add">+</button>
+
+            <button class="num-btn" data-num="1">1</button>
+            <button class="num-btn" data-num="2">2</button>
+            <button class="num-btn" data-num="3">3</button>
+            
+            <button class="equals-btn" data-func="equals">=</button>
+            
+            <button class="num-btn span-2" data-num="0">0</button>
+            <button class="num-btn" data-num=".">.</button>
+        </div>
+
+        <button id="show-history-btn" class="func-btn history-btn">Riwayat</button>
+        <div id="history-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Riwayat Perhitungan (5 Perhitungan Terakhir)</h2>
+                <ul id="history-list">
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
